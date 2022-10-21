@@ -1,4 +1,3 @@
 rootProject.name = 'JPA_Study'
-include 'Controller'
+include 'api'
 include 'core'
-
