@@ -1,8 +1,15 @@
 package com.jpatest.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.Date;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 //모든 설명의 출처는 https://data-make.tistory.com/610 [Data Makes Our Future:티스토리] 에서 가져옴.
 
 /*
@@ -61,13 +68,10 @@ public class Employees {
     private String lastName;
 
     @Column(name = "gender", nullable = false)
-    private Gender gender;
+    private String gender;
 
     @Column(name = "hire_date", nullable = false)
     private Date hireDate;
-
-
-    public enum Gender {M, F}
 
 
 }
