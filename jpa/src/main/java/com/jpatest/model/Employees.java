@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.Date;
 
+//롬복 확인 필요
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
