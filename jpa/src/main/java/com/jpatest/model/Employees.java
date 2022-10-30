@@ -74,5 +74,4 @@ public class Employees {
     @Column(name = "hire_date", nullable = false)
     private Date hireDate;
 
-
 }
