@@ -21,7 +21,7 @@ targetCompatibility = 17
 
 
 dependencies {
-    def lombokVersion = '1.18.12'
+    def lombokVersion = '1.18.22'
     // lombok
     compileOnly "org.projectlombok:lombok:$lombokVersion"
     annotationProcessor "org.projectlombok:lombok:$lombokVersion"

@@ -10,7 +10,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.2'
+    //https://stackoverflow.com/questions/68840627/a-module-can-not-access-jparepository-interface-that-is-in-the-other-module
+    //의존성 이슈.. api를 사용하면 jpa와 api 모두에서 라이브러리가 생성. 의존성 줄이는 방법 찾아야할 듯.
+    api 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.2'
 
     implementation 'org.mariadb.jdbc:mariadb-java-client:2.7.3'
     implementation 'com.zaxxer:HikariCP:5.0.1'
