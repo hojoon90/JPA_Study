@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     //https://stackoverflow.com/questions/68840627/a-module-can-not-access-jparepository-interface-that-is-in-the-other-module
-    //api 확인중..
+    //api 확인중....
     api 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.2'
 
     implementation 'org.mariadb.jdbc:mariadb-java-client:2.7.3'
